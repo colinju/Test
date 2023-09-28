@@ -1,0 +1,9 @@
+#LOGGING CONFS
+logging:
+  level:
+    root: INFO
+    org:
+      springframework: INFO
+    colin:
+      julien:
+        test: DEBUG
