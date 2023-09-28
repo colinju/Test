@@ -64,6 +64,7 @@ public class OrderParserService {
         LOG.debug("Parsing row");
         Product product = new Product();
 
+        // Brutal parsing due to string input but can be done with reg ex if we have correct business rules
         // Splitting the quantity / name and the price
         String[] split1 = p.split(" at ");
         if(split1.length < 2 ){
